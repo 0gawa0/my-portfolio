@@ -13,7 +13,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <header className={styles.header}>
-          <p><a href='#'>Myportfolio</a></p>
+          <div className={styles.wrapper}>
+            <p><a href='#'>Myportfolio</a></p>
+            <nav>
+              <ul>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>About</a></li>
+              </ul>
+            </nav>
+          </div>
         </header>
 
         <h1 className={styles.title}>

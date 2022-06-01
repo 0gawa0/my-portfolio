@@ -12,10 +12,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <header className={styles.heaer}>
+        <header className={styles.header}>
           <p><a href='#'>Myportfolio</a></p>
         </header>
-        
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">portfolio</a>
         </h1>

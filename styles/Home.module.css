@@ -1,127 +1,174 @@
-.container {
-  padding: 0 2rem;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/*ページ内の移動でスクロールさせる*/
+html {
+  scroll-behavior: smooth;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+/*ヘッダー部分のスタイル*/
 .header {
+  height: 60px;
+  background: #aaaaaa;
+  color: rgb(254, 254, 254);
   width: 100%;
-  background-color: #cecece;
 }
 
-.wrapper {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1000px;
+/*左上のロゴマーク*/
+.logo {
+  margin: 0;
+  font-family: 'Caveat', cursive;
+  line-height: 55px;
+  float: left;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  font-size: 30px;
+  color: #f6f6f6;
+  border-bottom: double 0.5px #d7d7d7;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+/*右上のリスト*/
+.nav {
+  list-style: none;
+  float: right;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
+.nav li{display: inline-block;}
+.nav li a{
+  display: inline-block;
+  padding: 20px 30px;
+  color: inherit;
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.container {
+  max-width: 1500px;
+  padding:0 5px;
+  width: 100%;
 }
 
+/*それぞれの記事のスペースを設定*/
+.content {
+  padding: 40px 0 1px 20px;
+  margin-bottom: 50px;
+  background-color: #f8f8f8;
+}
+
+/*トップの見出しのフォントと位置*/
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+  font-family: 'Caveat', cursive;
+  font-size: 150px;
+  letter-spacing: 0.1em;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+/*小見出しのフォントと位置*/
+.Subhead {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.5em;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.title_content {
+  margin: 240px 0 280px 0;
 }
 
-.grid {
+/*文章のフォントとサイズ*/
+.paragraph {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/*各セッションの見出し*/
+.headline {
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+  color: #636363;
+  background-color: #e4e4e4;
+  margin: 0 100px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+/*画像の横に文章を入れたいときのクラス*/
+.image_horizontal_content {
   display: flex;
+  margin: 20px 100px 100px;
+  padding: 10px 20px;
+  background-color: #cfcfcf;
+  width: fit-content;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+/*画像の上下に文章を入れたいときのクラス*/
+.image_vertical_content {
+  margin: 20px 100px 100px;
+  padding: 10px 20px;
+  background-color: #cfcfcf;
+  width: fit-content;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+/*自画像の設定*/
+.appearance_image {
+  margin: 20px 100px 20px 50px;
+  width: 150px;
+  height: 150px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+/*食べ物の画像設定*/
+.chicken_image {
+  width: 40%;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.sns_image {
+  width: 5%;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+/**/
+.map {
+  margin: 20px;
+  filter: sepia(.25);
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+/*フェードインアニメーション*/
+.text-focus-in {
+  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+ 0% {
+   -webkit-filter: blur(12px);
+           filter: blur(12px);
+   opacity: 0;
+ }
+ 100% {
+   -webkit-filter: blur(0px);
+           filter: blur(0px);
+   opacity: 1;
+ }
+}
+@keyframes text-focus-in {
+ 0% {
+   -webkit-filter: blur(12px);
+           filter: blur(12px);
+   opacity: 0;
+ }
+ 100% {
+   -webkit-filter: blur(0px);
+           filter: blur(0px);
+   opacity: 1;
+ }
 }

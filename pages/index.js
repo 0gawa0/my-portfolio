@@ -96,7 +96,9 @@ export default function Home() {
           <h2 className={styles.headline}>shop</h2>
           <div className={styles.image_horizontal_content}>
             <p className={styles.paragraph}>
-              浜松中区にあるスパイスカレー屋さんが気になってます<br />
+              浜松中区にある
+              <a href="http://ghal-hamamatsu.com/">スパイスカレー屋さんが</a>
+              気になってます<br />
               クリームベースのカレーがあるみたいなんですが、それがとっても美味しそうです<br />
               なおかつお洒落で見栄えがすごくいいのも最高です<br />
               <br />

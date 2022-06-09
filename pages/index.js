@@ -32,13 +32,13 @@ export default function Home() {
           </p>
         </div>
 
-        <div class="content">
+        <div className={styles.content}>
           {/*見出し*/}
-          <a name="about" class="headline">profile</a>
+          <a name="about" className={styles.headline}>profile</a>
           {/*自己紹介*/}
-          <div class="image_horizontal_content">
-            <img class="appearance_image" src="\image\sushi.png" alt="自画像" />
-              <p class="paragraph">
+          <div className={styles.image_horizontal_content}>
+            <img className={styles.appearance_image} src="/sushi.png" alt="自画像" />
+              <p className={styles.paragraph}>
               所属：静岡大学情報学部情報科学科2年<br/>
               出身：三重県南部<br/>
               <br/>

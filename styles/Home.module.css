@@ -73,6 +73,7 @@
   letter-spacing: 0.5em;
 }
 
+/*見出しの*/
 .title_content {
   margin: 240px 0 280px 0;
 }
@@ -126,7 +127,7 @@
 }
 
 .sns_image {
-  width: 2%;
+  width: 2.5%;
 }
 
 /**/

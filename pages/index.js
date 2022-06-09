@@ -129,7 +129,7 @@ export default function Home() {
         <div className={styles.content}>
         <a name="contact" className={styles.headline}>contact</a>
           <div className={styles.image_horizontal_content}>
-            <p className={styles.paragraph}>twitter:
+            <p className={styles.paragraph}>twitter:</p>
             <a 
               href="https://twitter.com/hama_coop?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Ahama_coop%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3JlZnNyY19zZXNzaW9uIjp7ImJ1Y2tldCI6Im9mZiIsInZlcnNpb24iOm51bGx9LCJ0Zndfc2Vuc2l0aXZlX21lZGlhX2ludGVyc3RpdGlhbF8xMzk2MyI6eyJidWNrZXQiOiJpbnRlcnN0aXRpYWwiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3"
               className={styles.paragraph}
@@ -141,7 +141,7 @@ export default function Home() {
               />
             </a>
 
-            github:
+            <p className={styles.paragraph}>github:</p>
             <a 
               href="https://github.com/NakagawaKeigo"
             >
@@ -150,7 +150,6 @@ export default function Home() {
             alt="githubアイコン"
             />
             </a>
-            </p>
           </div>
         </div>
 

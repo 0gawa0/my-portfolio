@@ -141,11 +141,14 @@ export default function Home() {
               alt="ツイッターアイコン"
               />
             </a>
-            <p className={styles.paragraph}>github:</p>
+
+            <p className={styles.paragraph}>github:</p
+            <a href="https://github.com/NakagawaKeigo">
             <img
             src="/GitHub-Mark-Light-32px.png"
             alt="githubアイコン"
             />
+            </a>
           </div>
         </div>
 

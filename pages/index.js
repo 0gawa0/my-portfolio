@@ -111,16 +111,17 @@ export default function Home() {
             </p>
             <div className={styles.map}>
               {/*グーグルマップ埋め込み*/}
-              
+              {/*
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1647.6276403715422!2d137.6935098053232!3d34.76056611555032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b210db28eb965%3A0x820d1ce4666c5ba9!2z44K544OR44Kk44K544Kr44Os44O844Ks44OrIEdIQUw!5e1!3m2!1sja!2sjp!4v1654681016987!5m2!1sja!2sjp"
                 width="400"
                 height="300"
                 style="border:0;"
+
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
               </iframe>
-              
+              */}
             </div>
           </div>
         </div>

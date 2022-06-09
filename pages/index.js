@@ -27,9 +27,26 @@ export default function Home() {
         <div className={styles.title_content}>
           <h1 className={`${styles.title} ${styles.text_focus_in}`}>Portfolio</h1>
           <p className={`${styles.subhead} ${styles.text_focus_in}`}>
-            Welcome to my page.<br/>
+            Welcome to my page.<br />
             This is a page I created to learn about website development.
           </p>
+        </div>
+
+        <div class="content">
+          {/*見出し*/}
+          <a name="about" class="headline">profile</a>
+          {/*自己紹介*/}
+          <div class="image_horizontal_content">
+            <img class="appearance_image" src="\image\sushi.png" alt="自画像" />
+              <p class="paragraph">
+              所属：静岡大学情報学部情報科学科2年<br/>
+              出身：三重県南部<br/>
+              <br/>
+              最近はblenderとAfterEffectsに興味を持ってます<br/>
+              もっと使いこなせるようになりたいですが、なかなかソフトを弄れずにいます...<br/>
+              今年中にはモデリングがそれなりにできるようにしていきたいです
+              </p>
+          </div>
         </div>
       </main>
     </div>

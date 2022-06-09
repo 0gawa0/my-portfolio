@@ -79,7 +79,7 @@ export default function Home() {
           <h2 className={styles.headline}>food</h2>
           <div className={styles.image_vertical_content}>
             <p className={styles.paragraph}>
-              好きな食べ物は穴子の握りです、穴子しか勝たん👍<br />
+              好きな食べ物は穴子の握りです<br />
               たれが程よく絡み、ふわふわの身とよく合います<br />
               <br />
               あとは大学の食堂にある鶏レバーが美味しくて最近よく食べてます　生姜が効いていてさっぱりしてて、比較的濃い目の味付けでご飯によく合います<br />

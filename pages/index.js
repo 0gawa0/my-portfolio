@@ -24,9 +24,9 @@ export default function Home() {
           </div>
         </header>
 
-        <div class="title_content">
-          <h1 class="title text-focus-in">Portfolio</h1>
-          <p class="Subhead text-focus-in">
+        <div className={styles.title_content}>
+          <h1 className={`${styles.title} ${styles.text_focus_in}`}>Portfolio</h1>
+          <p className={`${styles.subhead} ${styles.text_focus_in}`}>
             Welcome to my page.<br/>
             This is a page I created to learn about website development.
           </p>

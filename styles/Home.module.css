@@ -69,7 +69,7 @@
 }
 
 /*小見出しのフォントと位置*/
-.Subhead {
+.subhead {
   font-family: 'Caveat', cursive;
   font-size: 20px;
   text-align: center;
@@ -139,7 +139,7 @@
 }
 
 /*フェードインアニメーション*/
-.text-focus-in {
+.text_focus_in {
   -webkit-animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }

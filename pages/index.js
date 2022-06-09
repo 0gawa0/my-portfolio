@@ -85,7 +85,7 @@ export default function Home() {
               <br />
               あとは大学の食堂にある鶏レバーが美味しくて最近よく食べてます　生姜が効いていてさっぱりしてて、比較的濃い目の味付けでご飯によく合います<br />
               <br />
-              <img className={styles.chicken_image} src="\image\chickenreba.jpg" alt="薩摩ハーブ鶏のレバー煮" /><br />
+              <img className={styles.chicken_image} src="/chickenreba.jpg" alt="薩摩ハーブ鶏のレバー煮" /><br />
               <br />
               タンパク質ばっかりですね
             </p>

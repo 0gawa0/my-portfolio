@@ -12,10 +12,6 @@
   align-items: center;
 }
 
-h2 {
-  font-weight: normal;
-}
-
 /*ヘッダー部分のスタイル*/
 .header {
   height: 60px;

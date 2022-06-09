@@ -53,8 +53,8 @@ export default function Home() {
           <h2 className={styles.headline}>aim</h2>
           <div className={styles.image_vertical_content}>
             <p className={styles.paragraph}>
-              フロントエンドの開発に興味があるので、それに関連した職業につけたらいいなと思ってます（せっかく先端で取り組んでいるので）<br/>
-                ただ、最近はネットワークやセキュリティも魅力的だと感じているので悩んでいます...
+              フロントエンドの開発に興味があるので、それに関連した職業につけたらいいなと思ってます（せっかく先端で取り組んでいるので）<br />
+              ただ、最近はネットワークやセキュリティも魅力的だと感じているので悩んでいます...
             </p>
           </div>
         </div>
@@ -64,12 +64,12 @@ export default function Home() {
           <h2 className={styles.headline}>favorite</h2>
           <div className={styles.image_vertical_content}>
             <p className={styles.paragraph}>
-              ここ1年はお絵描きにハマってます。大学入学時にipadAirを購入したのをきっかけに始めました<br/>
-              なかなか思った通りの絵が描けていないですが、その分上手くいったときの達成感がすごいです<br/>
-              これからはアニメーションなどにも挑戦してみたいと思ってます（体描くの苦手ですが...）<br/>
-              <br/>
-              最近はなかなか見れていないですがアニメも見たりしてます（スパイファミリーおもろい）<br/>
-              <br/>
+              ここ1年はお絵描きにハマってます。大学入学時にipadAirを購入したのをきっかけに始めました<br />
+              なかなか思った通りの絵が描けていないですが、その分上手くいったときの達成感がすごいです<br />
+              これからはアニメーションなどにも挑戦してみたいと思ってます（体描くの苦手ですが...）<br />
+              <br />
+              最近はなかなか見れていないですがアニメも見たりしてます（スパイファミリーおもろい）<br />
+              <br />
               あとは散歩するのが好きです　普段は行かないようなところに着くと新鮮な気持ちになります
             </p>
           </div>
@@ -79,14 +79,16 @@ export default function Home() {
         <div className={styles.content}>
           <h2 className={styles.headline}>food</h2>
           <div className={styles.image_vertical_content}>
-          好きな食べ物は穴子の握りです、穴子しか勝たん👍<br/>
-                たれが程よく絡み、ふわふわの身とよく合います<br/>
-                <br/>
-                あとは大学の食堂にある鶏レバーが美味しくて最近よく食べてます　生姜が効いていてさっぱりしてて、比較的濃い目の味付けでご飯によく合います<br/>
-                <br/>
-                <img className={styles.chicken_image} src="\image\chickenreba.jpg" alt="薩摩ハーブ鶏のレバー煮" /><br/>
-                <br/>
-                タンパク質ばっかりですね
+            <p className={styles.paragraph}>
+              好きな食べ物は穴子の握りです、穴子しか勝たん👍<br />
+              たれが程よく絡み、ふわふわの身とよく合います<br />
+              <br />
+              あとは大学の食堂にある鶏レバーが美味しくて最近よく食べてます　生姜が効いていてさっぱりしてて、比較的濃い目の味付けでご飯によく合います<br />
+              <br />
+              <img className={styles.chicken_image} src="\image\chickenreba.jpg" alt="薩摩ハーブ鶏のレバー煮" /><br />
+              <br />
+              タンパク質ばっかりですね
+            </p>
           </div>
         </div>
 

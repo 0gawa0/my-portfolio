@@ -128,6 +128,7 @@ export default function Home() {
 
         {/*連絡先*/}
         <div className={styles.content}>
+        <a name="contact" className={styles.headline}>contact</a>
           <div className={styles.image_horizontal_content}>
             <p className={styles.paragraph}>twitter:</p>
             <a 
@@ -140,6 +141,11 @@ export default function Home() {
               alt="ツイッターアイコン"
               />
             </a>
+            <p className={styles.paragraph}>github:</p>
+            <img
+            src="/GitHub-Mark-Light-32px.png"
+            alt="githubアイコン"
+            />
           </div>
         </div>
 

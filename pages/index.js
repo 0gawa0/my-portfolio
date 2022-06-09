@@ -92,6 +92,56 @@ export default function Home() {
           </div>
         </div>
 
+        {/*行ってみたいお店*/}
+        <div className={styles.content}>
+          <h2 className={styles.headline}>shop</h2>
+          <div className={styles.image_horizontal_content}>
+            <p className={styles.paragraph}>
+              浜松中区にあるスパイスカレー屋さんが気になってます<br />
+              クリームベースのカレーがあるみたいなんですが、それがとっても美味しそうです<br />
+              なおかつお洒落で見栄えがすごくいいのも最高です<br />
+              <br />
+              小麦粉等を使用していないためヘルシーでかつサラッとして食べやすいのが特徴だそう
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              ただ、それなりに距離があるのがネックです...
+            </p>
+            <div className={styles.map}>
+              {/*グーグルマップ埋め込み*/}
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1647.6276403715422!2d137.6935098053232!3d34.76056611555032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601b210db28eb965%3A0x820d1ce4666c5ba9!2z44K544OR44Kk44K544Kr44Os44O844Ks44OrIEdIQUw!5e1!3m2!1sja!2sjp!4v1654681016987!5m2!1sja!2sjp"
+                width="400"
+                height="300"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        {/*連絡先*/}
+        <div className={styles.content}>
+          <div className={styles.image_horizontal_content}>
+            <p className={styles.paragraph}>twitter:</p>
+            <a 
+              href="https://twitter.com/hama_coop?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Ahama_coop%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3JlZnNyY19zZXNzaW9uIjp7ImJ1Y2tldCI6Im9mZiIsInZlcnNpb24iOm51bGx9LCJ0Zndfc2Vuc2l0aXZlX21lZGlhX2ludGVyc3RpdGlhbF8xMzk2MyI6eyJidWNrZXQiOiJpbnRlcnN0aXRpYWwiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3"
+              className={styles.paragraph}
+              target="_blank">
+              <img
+              className={styles.sns_image}
+              src="/2021 Twitter logo - white.png"
+              alt="ツイッターアイコン"
+              />
+            </a>
+          </div>
+        </div>
+
+        <p className={styles.paragraph}>© 2022 Nakagawa Keigo.</p>
       </main>
     </div>
   )

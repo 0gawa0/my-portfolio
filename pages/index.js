@@ -8,21 +8,6 @@ export default function Home() {
       <Head>
         <title>Myportfolio</title>
         <meta name='description' content="This is description" />
-        {/*見出し用のフォント*/}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
-          rel="stylesheet"
-        />
-        {/*本文のフォント*/}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap"
-          rel="stylesheet"
-        />
-        {/*小見出し用のフォント*/}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Zen+Maru+Gothic:wght@300&display=swap"
-          rel="stylesheet"
-        />
       </Head>
 
       <main className={styles.main}>

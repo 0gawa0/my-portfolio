@@ -12,11 +12,6 @@
   align-items: center;
 }
 
-/*ページ内の移動でスクロールさせる*/
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }

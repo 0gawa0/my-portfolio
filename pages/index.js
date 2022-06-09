@@ -142,8 +142,10 @@ export default function Home() {
               />
             </a>
 
-            <p className={styles.paragraph}>github:</p
-            <a href="https://github.com/NakagawaKeigo">
+            <p className={styles.paragraph}>github:</p>
+            <a 
+              href="https://github.com/NakagawaKeigo"
+            >
             <img
             src="/GitHub-Mark-Light-32px.png"
             alt="githubアイコン"

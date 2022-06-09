@@ -36,7 +36,7 @@ export default function Home() {
         <div className={styles.content}>
           <a name="about" className={styles.headline}>profile</a>
           <div className={styles.image_horizontal_content}>
-            <Image className={styles.appearance_image} src="/sushi.png" alt="自画像" />
+            <img className={styles.appearance_image} src="/sushi.png" alt="自画像" />
             <p className={styles.paragraph}>
               所属：静岡大学情報学部情報科学科2年<br />
               出身：三重県南部<br />
@@ -85,7 +85,7 @@ export default function Home() {
               <br />
               あとは大学の食堂にある鶏レバーが美味しくて最近よく食べてます　生姜が効いていてさっぱりしてて、比較的濃い目の味付けでご飯によく合います<br />
               <br />
-              <Image className={styles.chicken_image} src="/chickenreba.jpg" alt="薩摩ハーブ鶏のレバー煮" /><br />
+              <img className={styles.chicken_image} src="/chickenreba.jpg" alt="薩摩ハーブ鶏のレバー煮" /><br />
               <br />
               タンパク質ばっかりですね
             </p>
@@ -134,7 +134,7 @@ export default function Home() {
               href="https://twitter.com/hama_coop?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Ahama_coop%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3JlZnNyY19zZXNzaW9uIjp7ImJ1Y2tldCI6Im9mZiIsInZlcnNpb24iOm51bGx9LCJ0Zndfc2Vuc2l0aXZlX21lZGlhX2ludGVyc3RpdGlhbF8xMzk2MyI6eyJidWNrZXQiOiJpbnRlcnN0aXRpYWwiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3"
               className={styles.paragraph}
             >
-              <Image
+              <img
               className={styles.sns_image}
               src="/2021 Twitter logo - white.png"
               alt="ツイッターアイコン"

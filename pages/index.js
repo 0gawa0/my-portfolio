@@ -15,7 +15,7 @@ export default function Home() {
           <div className={styles.header_container}>
             <a href="#" className={styles.logo}>portfolio</a>
             <nav>
-              <ul className={styles.hav}>
+              <ul className={styles.nav}>
                 <li><a href="#about">About</a></li>
                 <li><a href="#">Works</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -23,6 +23,14 @@ export default function Home() {
             </nav>
           </div>
         </header>
+
+        <div class="title_content">
+          <h1 class="title text-focus-in">Portfolio</h1>
+          <p class="Subhead text-focus-in">
+            Welcome to my page.<br/>
+            This is a page I created to learn about website development.
+          </p>
+        </div>
       </main>
     </div>
   )
